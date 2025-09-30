@@ -1,2 +1,3 @@
-# Visitor-Management-System-Java-EE-
+Visitor-Management-System-Java-EE-
 A Java EE (EJB + JSP + Servlets + JPA) project for managing visitor requests in a residential community with three roles: Resident, Security, and Staff. Built &amp; developed with NetBeans 8.2 and GlassFish 4.1.1 (tested target environment). Uses JPA (EclipseLink by default), EJB facades for business/persistence, and JSP/Servlets for the web tier.
+The Java EE web application (EJB + JPA + Servlets + JSP) to manage visitor requests for a residential community,Resident, Security, and Staff. Residents submit visitor requests, Security assists/records visitors and updates request statuses, and Staff manages users and can view/update all requests and run reports.
