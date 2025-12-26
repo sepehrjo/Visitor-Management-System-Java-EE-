@@ -1,3 +1,30 @@
-Visitor-Management-System-Java-EE-
-A Java EE (EJB + JSP + Servlets + JPA) project for managing visitor requests in a residential community with three roles: Resident, Security, and Staff. Built &amp; developed with NetBeans 8.2 and GlassFish 4.1.1 (tested target environment). Uses JPA (EclipseLink by default), EJB facades for business/persistence, and JSP/Servlets for the web tier.
-The Java EE web application (EJB + JPA + Servlets + JSP) to manage visitor requests for a residential community,Resident, Security, and Staff. Residents submit visitor requests, Security assists/records visitors and updates request statuses, and Staff manages users and can view/update all requests and run reports.
+# Visitor Management System
+A Java EE application designed to manage visitor requests in a residential community. It supports three user roles: Residents, Security, and Staff.
+
+## Why this project exists
+Managing visitors in a large community can be chaotic. This system provides a structured way for residents to pre-approve guests, for security to track entries, and for staff to oversee the entire process.
+
+## Quick Start
+1. **Prerequisites**: You'll need NetBeans 8.2 and GlassFish 4.1.1.
+2. **Database**: Set up a database and update the `persistence.xml` in the `ejb` module if needed.
+3. **Open Project**: Open both the `ejb` and `war` folders as projects in NetBeans.
+4. **Deploy**: Deploy the `ejb` module first, then the `war` module to GlassFish.
+5. **Run**: Access the application through your browser (usually `http://localhost:8080/war`).
+
+## Project Structure
+- `ejb/`: Contains the backend logic, database models (JPA), and EJB facades.
+- `war/`: Contains the web interface (JSP), servlets (Controllers), and CSS.
+- `.gitignore`: Keeps the repository clean by ignoring build and IDE files.
+
+## How to contribute
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a Pull Request with a clear description of your changes.
+
+## How to roll back cleanup
+If you need to undo the cleanup, use these commands:
+- `git checkout cleanup/backup-20251226115213`
+- Or revert the specific commit.
+
+## License
+No license file found.
