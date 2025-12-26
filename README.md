@@ -16,15 +16,6 @@ Managing visitors in a large community can be chaotic. This system provides a st
 - `war/`: Contains the web interface (JSP), servlets (Controllers), and CSS.
 - `.gitignore`: Keeps the repository clean by ignoring build and IDE files.
 
-## How to contribute
-1. Fork the repository.
-2. Create a feature branch.
-3. Submit a Pull Request with a clear description of your changes.
-
-## How to roll back cleanup
-If you need to undo the cleanup, use these commands:
-- `git checkout cleanup/backup-20251226115213`
-- Or revert the specific commit.
 
 ## License
 No license file found.
